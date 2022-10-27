@@ -10,7 +10,12 @@ The model relies on a python script that could run in the command prompt of the 
 
 ## Implementation
 
-The script scans for the presence of the following elements in the code of the websites being scanned for a Clickjacking attack: **XFrame-Options**, **Content-Security-Policy** and **Samesite cookie attribute**. On the basis of the elements mentioned above, the script comments on the security level of the website’s code to protect itself against Clickjacking attacks.
+The script scans for the presence of the following elements in the code of the websites being scanned for a Clickjacking attack:
+* **XFrame-Options**,
+* **Content-Security-Policy** and 
+* **Samesite cookie attribute**.
+
+On the basis of the elements mentioned above, the script comments on the security level of the website’s code to protect itself against Clickjacking attacks.
 
 X-Frame-Options are a set of options that may be used to customise the framing options of a webpage. A browser’s ability to render a page in a frame, iframe, or object tag is determined by the HTTP header. It was created with the express purpose of preventing Clickjacking. For the X-Frame-Options, there are three possible options:
 
