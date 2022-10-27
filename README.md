@@ -36,7 +36,7 @@ Next, the script scans for the presence of the Content-Security-Policy option. S
 
 After this, the script searches for the presence of Samesite cookie attribute. In case of its presence, it is assigned a value of 1, else 0. After assigning the temporary ‘Level of security’, these temporary ‘Level of security’ values are added to give the Final ‘Level of security’ value for the target website.
 
-![image](https://user-images.githubusercontent.com/75626387/198181581-dda0b78d-a259-4c39-ae69-504aee44ebe3.png)
+![image](https://user-images.githubusercontent.com/75626387/198183391-d6a5b89d-f128-4251-b670-0ead7b692d22.png)
 
 Along with the ‘Level of security’, the script tells the elements missing from the website’s HTML/CSS code. This feedback gives the user an edge to check their code and make the desired changes.
 
