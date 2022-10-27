@@ -42,6 +42,8 @@ Along with the ‘Level of security’, the script tells the elements missing fr
 
 ![image](https://user-images.githubusercontent.com/75626387/198182821-c5408443-4448-482a-80f1-0735584a242b.png)
 
+PS: This is a research work: Aryaman, N.Naik, S.Vollala, ”Detecting and Predicting countermeasures against Clickjacking” Security and Privacy, Wiley Online Library [Submitted]
+
 ## Author
 
 - Aryaman : [@Aryaman-Arya](https://github.com/Aryaman-Arya)
