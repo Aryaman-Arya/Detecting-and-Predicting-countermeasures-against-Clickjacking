@@ -7,3 +7,9 @@ This approach prevents websites from being Clickjacked by detecting the vulnerab
 ## Deployment
 
 The model relies on a python script that could run in the command prompt of the computer. A text file has to be created for the task of testing the various websites for any possibility of a Clickjacking attack. The text file contains the name of all the websites that need to be scanned for the Clickjacking attack. The python script scans the text file and presents the expected results in the Terminal window. The task of the script here is to scan the HTML/CSS codes of the websites mentioned in the text file and search for the vulnerabilities in the code that could result in the website being attacked.
+
+## Implementation
+
+## Authors
+
+- Aryaman : [@Aryaman-Arya](https://github.com/Aryaman-Arya)
