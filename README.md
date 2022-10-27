@@ -28,6 +28,8 @@ Likewise, for the Content-Security-Policy, there are three possible options:
 
 The third element under consideration, Samesite cookie attribute. A cookie with this property is only transmitted to a website if it is opened directly, rather than in a frame or in any other way. If a site, like Instagram, has the samesite property on its authentication cookie, it would look like this: ‘Set-Cookie: authorization=secret; samesite’
 
+![Blank diagram](https://user-images.githubusercontent.com/75626387/198182001-8167fbab-9dc4-4b53-9efa-c003d0717b57.jpeg)
+
 If the X-Frame-Options are present, then it checks for the permitted value assigned. For a script with X-Frame-Options as ‘DENY’, it is assigned a temporary ‘Level of security’ value of 3; for a script with ‘SAMEORIGIN’, it is assigned a value of 2 and for ‘ALLOW-FROM’, it is assigned a value of 1.
 
 Next, the script scans for the presence of the Content-Security-Policy option. Similarly, If the Content-Security-Policy is present, it checks for the assigned permitted value. For a script with the permitted value as ‘frame-ancestors ’none”, it is assigned a temporary ‘Level of security’ value of 3, for a script with ‘frame-ancestors ’self”, it is assigned a value of 2, and for ‘frame-ancestors ’self’ *’, it is assigned a temporary ‘Level of security’ value of 1.
