@@ -11,7 +11,7 @@ The model relies on a python script that could run in the command prompt of the 
 ## Implementation
 
 The script scans for the presence of the following elements in the code of the websites being scanned for a Clickjacking attack:
-* **XFrame-Options**,
+* **X-Frame-Options**,
 * **Content-Security-Policy** and 
 * **Samesite cookie attribute**.
 
