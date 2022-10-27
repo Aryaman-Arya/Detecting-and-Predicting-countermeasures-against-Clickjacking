@@ -19,12 +19,12 @@ On the basis of the elements mentioned above, the script comments on the securit
 
 X-Frame-Options are a set of options that may be used to customise the framing options of a webpage. A browser’s ability to render a page in a frame, iframe, or object tag is determined by the HTTP header. It was created with the express purpose of preventing Clickjacking. For the X-Frame-Options, there are three possible options:
 
-![image](https://user-images.githubusercontent.com/75626387/198178548-463380bc-54c5-47d2-a12a-d2b41169a169.png)
+![image](https://user-images.githubusercontent.com/75626387/198183067-84c49307-4848-49f0-a2e9-c53453c1ecca.png)
 
 The Content-Security-Policy is a set of guidelines that govern the framing settings of a website. The Content-Security-Policy, part of the HTML5 standard, offers more safety than the X-Frame-Options header (which it replaces). It’s set up so that website owners may whitelist specific domains from which resources (such as scripts, stylesheets, and fonts) can be loaded and domains from which they can embed a page.
 Likewise, for the Content-Security-Policy, there are three possible options:
 
-![image](https://user-images.githubusercontent.com/75626387/198178767-cbccb6a1-9b7c-483d-a7cf-b72f1ab448d6.png)
+![image](https://user-images.githubusercontent.com/75626387/198183153-39d77fef-b881-4a48-8723-ae07dc683453.png)
 
 The third element under consideration, Samesite cookie attribute. A cookie with this property is only transmitted to a website if it is opened directly, rather than in a frame or in any other way. If a site, like Instagram, has the samesite property on its authentication cookie, it would look like this: ‘Set-Cookie: authorization=secret; samesite’
 
@@ -38,8 +38,10 @@ After this, the script searches for the presence of Samesite cookie attribute. I
 
 ![image](https://user-images.githubusercontent.com/75626387/198181581-dda0b78d-a259-4c39-ae69-504aee44ebe3.png)
 
+Along with the ‘Level of security’, the script tells the elements missing from the website’s HTML/CSS code. This feedback gives the user an edge to check their code and make the desired changes.
 
+![image](https://user-images.githubusercontent.com/75626387/198182821-c5408443-4448-482a-80f1-0735584a242b.png)
 
-## Authors
+## Author
 
 - Aryaman : [@Aryaman-Arya](https://github.com/Aryaman-Arya)
